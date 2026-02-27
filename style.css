@@ -1,9 +1,9 @@
 
 :root{
   /* palette base */
-  --bg:#071027;              /* sfondo main */
-  --surface:#0e1724;         /* sfondo card */
-  --muted:#98a0b3;           /* testo muto */
+  --bg:#071027; /* sfondo main */
+  --surface:#0e1724; /* sfondo card */
+  --muted:#98a0b3; /* testo muto */
   --glass:rgba(255,255,255,0.04);
   --glass-strong:rgba(255,255,255,0.06);
 
@@ -27,7 +27,7 @@
 *{box-sizing:border-box}
 html,body{height:100%}
 body{
-  margin:0;
+  margin:20%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
