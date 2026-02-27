@@ -3,13 +3,13 @@
   --bg: #071027; /* sfondo main */
   --surface: #0e1724; /* sfondo card */
   --muted: #98a0b3; /* testo muto */
-  --glass: rgba(255, 255, 255, 0.04);
+  --glass: #ffffff;
   --glass-strong: rgba(255, 255, 255, 0.06);
 
   /* colore dettagli */
-  --accent-blue: #2aa3ff;
-  --accent-teal: #33f0d6;
-  --accent-purple: #8a5cff;
+  --accent-blue: #00aeff;
+  --accent-teal: #15eeb0;
+  --accent-purple: #9619fc;
 
   /* gradienti */
   --grad-1: linear-gradient(135deg, var(--accent-blue), var(--accent-teal));
