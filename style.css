@@ -58,18 +58,26 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 48px 28px;
 }
 
+.container-prodotto:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 60px rgba(6, 10, 18, 0.6);
+  animation:floaty 4s ease infinite;
+  transition:transform 0.5s ease,box-shadow 1s ease;
+}
+
 .container-prodotto {
   align-items: center;
-  width: 280px;
-  height: 280px;
+  width: 20%;
+  height: fit-content;
   margin-top: 50px;
   padding: 15px 15px;
   border-radius: 20px;
+  max-width: 20%;
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.02),
@@ -79,16 +87,8 @@ body {
   box-shadow: var(--shadow-1);
 }
 
-.container-prodotto:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 60px rgba(6, 10, 18, 0.6);
-}
-
 /* testo --------------------------------------------------------------*/
-h1,
-h2,
-h3,
-h4 {
+h1,h2,h3,h4 {
   margin: 0 0 12px 0;
   font-weight: 700;
   letter-spacing: -0.02em;
